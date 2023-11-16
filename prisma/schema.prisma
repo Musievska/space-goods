@@ -7,7 +7,6 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-<<<<<<< HEAD
   url = env("POSTGRES_PRISMA_URL") // uses connection pooling
   directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
 }
@@ -24,7 +23,3 @@ model Product {
   updatedAt   DateTime @updatedAt
 }
 
-=======
-  url      = env("DATABASE_URL")
-}
->>>>>>> 421d143f5c50c907634902fc41c0cc337b8eb5f7
