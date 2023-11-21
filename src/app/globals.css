@@ -26,6 +26,42 @@
     rgb(var(--background-start-rgb));
 } */
 
+/* .image-container {
+  width: 100%;
+
+  > div {
+    position: unset !important;
+  } */
+
+  /* .image {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+  }
+} */
+
+.product-image {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+
+.product-image-container {
+  height: 200px; /* Set a fixed height */
+  background-color: #f0f0f0; /* Optional: a light background color to fill empty space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-image {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
 /* Custom link class */
 .link-style {
   @apply text-red-500 text-lg md:text-2xl lg:text-3xl xl:text-3xl font-bold mr-4 hover:animate-bounce;
